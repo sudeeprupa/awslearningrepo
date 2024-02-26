@@ -6,7 +6,6 @@ phases:
       java: corretto17
   build:
     commands:
-      - mvn test
       - echo Entered the build phase...
       - mvn clean package
   post_build:
